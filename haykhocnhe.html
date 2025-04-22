@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+    }
+    input[type="file"] {
+      margin: 20px 0;
+    }
+    img {
+      max-width: 500px;
+      height: auto;
+      margin-top: 20px;
+      border: 2px solid #ccc;
+      padding: 10px;
+      border-radius: 10px;
+    }
+    body {background-image: url('hinh-nen-cute-de-thuong-dang-yeu-3.jpg');
+  </style>
+<head>
+  <meta charset="UTF-8">
+  <title>Trang bảo vệ bằng mật khẩu</title>
+</head>
+  <h2>HEHEHEHEHEHE</h2>
+  <input type="password" id="password" placeholder="Nhập mật khẩu">
+  <button onclick="checkPassword()">Vào trang</button>
+
+  <script>
+    function checkPassword() {
+      const password = document.getElementById("password").value;
+      const correctPassword = "bạn chúc tớ ngủ ngon ik rồi nói cho"; // 👉 Bạn có thể đổi mật khẩu tại đây
+
+      if (password === correctPassword) {
+        alert("Mật khẩu đúng! Đang vào trang...");
+        window.location.href = "hehehehehe.html"; // 👉 Trang thật sau khi vào đúng mk
+      } else {
+        alert("Sai mật khẩu!");
+      }
+    }
+  </script>
+</body>
+</html>

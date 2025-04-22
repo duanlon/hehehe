@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Trang bảo vệ bằng mật khẩu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+      background-image: url('hinh-nen-cute-de-thuong-dang-yeu-3.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    input[type="file"] {
+      margin: 20px 0;
+    }
+
+    img {
+      max-width: 500px;
+      height: auto;
+      margin-top: 20px;
+      border: 2px solid #ccc;
+      padding: 10px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>HEHEHEHEHEHE</h2>
+  <input type="password" id="password" placeholder="Nhập mật khẩu">
+  <button onclick="checkPassword()">Vào trang</button>
+
+  <script>
+    function checkPassword() {
+      const password = document.getElementById("password").value;
+      const correctPassword = "bạn chúc tớ ngủ ngon ik rồi nói cho";
+
+      if (password === correctPassword) {
+        alert("Mật khẩu đúng! Đang vào trang...");
+        window.location.href = "hehehehehe.html";
+      } else {
+        alert("Sai mật khẩu!");
+      }
+    }
+  </script>
+</body>
+</html>
